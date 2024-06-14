@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es2016", "dom"],
+    "module": "ES6",
+    "declaration": false,
+    "outDir": "./dist",
+    "strict": true, // Kengaytirilgan sinashni yoqish
+    "esModuleInterop": true, // CommonJS va ES modullari o'rtasida muvofiqlikni ta'minlash
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./src/**/*", "funksion.ts"]
+}
